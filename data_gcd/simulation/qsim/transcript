@@ -1,0 +1,55 @@
+# do GCD.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module GCD
+# 
+# Top level modules:
+# 	GCD
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module GCD_vlg_sample_tst
+# -- Compiling module GCD_vlg_check_tst
+# -- Compiling module GCD_vlg_vec_tst
+# 
+# Top level modules:
+# 	GCD_vlg_vec_tst
+# vsim -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.GCD_vlg_vec_tst 
+# Loading work.GCD_vlg_vec_tst
+# Loading work.GCD
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.GCD_vlg_sample_tst
+# Loading work.GCD_vlg_check_tst
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from GCD_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from GCD_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /GCD_vlg_vec_tst File: Waveform.vwf.vt
+# ERROR! Vector Mismatch for output port SAIDA[3] :: @time = 30000.000 ps
+#      Expected value = 00000000
+#      Real value = 01001000
+# ERROR! Vector Mismatch for output port SAIDA[6] :: @time = 30000.000 ps
+#      Expected value = 00000000
+#      Real value = 01001000
+# ERROR! Vector Mismatch for output port SAIDA[1] :: @time = 45000.000 ps
+#      Expected value = 00000000
+#      Real value = 01001010
+# ERROR! Vector Mismatch for output port SAIDA[0] :: @time = 50000.000 ps
+#      Expected value = 00000000
+#      Real value = 00011011
+# ERROR! Vector Mismatch for output port SAIDA[4] :: @time = 50000.000 ps
+#      Expected value = 00000000
+#      Real value = 00011011
+# ERROR! Vector Mismatch for output port FIM :: @time = 145000.000 ps
+#      Expected value = 0
+#      Real value = 1
+#           6 mismatched vectors : Simulation failed !
+# ** Note: $finish    : Waveform.vwf.vt(315)
+#    Time: 200 ns  Iteration: 0  Instance: /GCD_vlg_vec_tst/tb_out

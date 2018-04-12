@@ -1,0 +1,18 @@
+Analysis & Synthesis Status : Successful - Thu Apr 12 10:34:59 2018
+Quartus II 32-bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
+Revision Name : GCD
+Top-level Entity Name : GCD
+Family : Cyclone IV GX
+Total logic elements : 72
+    Total combinational functions : 72
+    Dedicated logic registers : 23
+Total registers : 23
+Total pins : 27
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0

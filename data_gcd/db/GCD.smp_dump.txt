@@ -1,0 +1,10 @@
+
+State Machine - |GCD|controlador_mdc:control|est
+Name est.DONE est.L_B est.pL_B est.L_A est.DEC est.L_AB est.INI 
+est.INI 0 0 0 0 0 0 0 
+est.L_AB 0 0 0 0 0 1 1 
+est.DEC 0 0 0 0 1 0 1 
+est.L_A 0 0 0 1 0 0 1 
+est.pL_B 0 0 1 0 0 0 1 
+est.L_B 0 1 0 0 0 0 1 
+est.DONE 1 0 0 0 0 0 1 
